@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech Recognition App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Speech Recognition App</h1>
+ <!--<h4>Note:ONly wav files accepected</h4>-->
+    <form method="POST" enctype="multipart/form-data">
+        <label for="file"></label>
+        <input type="file" name="file" id="file">
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if transcript %}
+        <h2>Transcript:</h2>
+        <p>{{ transcript }}</p>
+    {% endif %}
+</body>
+</html>

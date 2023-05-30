@@ -1,0 +1,71 @@
+body {
+  background-image: url('image3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+form {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 2em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+form label:before {
+  content: "Choose a file...";
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form label:hover:before {
+  background-color: #3e8e41;
+}
+
+form label:active:before {
+  background-color: green;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 2em;
+}

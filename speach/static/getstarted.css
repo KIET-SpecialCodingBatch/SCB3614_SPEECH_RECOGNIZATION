@@ -1,0 +1,55 @@
+body {
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 2em 0;
+    color:rgb(178, 228, 14);
+  }
+  
+  form {
+    background-color: #f1f1f1;
+    padding: 2em;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+  
+  input[type="text"], input[type="tel"] {
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="submit"]:active {
+    background-color: green;
+  }
+  
+  
